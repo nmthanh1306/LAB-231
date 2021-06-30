@@ -1,0 +1,172 @@
+/* 
+    Created on : May 14, 2021, 9:18:06 AM
+    Author     : Minh Thanh
+*/
+
+.wrapper{
+    width: 886px;
+    height: auto;
+    margin: 0 auto; 
+    font-family: sans-serif;
+}
+
+.pre-header{
+    background-image: url(../resource/images/preheader.jpg);
+    height: 71px;
+
+}
+
+.header{
+    background-image: url(../resource/images/header.jpg);
+    height: 78px;
+    font-size: 20px;
+    padding-left: 80px;
+}
+
+.menu{
+    background-image: url(../resource/images/menu.jpg);
+    height: 32px;
+    padding-left: 80px;
+}
+
+.menu a{
+    text-decoration: none;
+    line-height: 32px;
+    font-size: small;
+}
+
+.bg{
+    background-image: url(../resource/images/bg.jpg);
+    height: auto;
+    display: flex;
+}
+
+.bg .main-left{
+    width: 65%;
+    height: auto;
+    padding-left: 80px;
+    padding-right: 30px;
+}
+
+.bg .main-left .news-title{
+    padding-top: 15px;
+    /*color: #5a5e4e;*/
+}
+
+.bg .main-left .i1 img{
+    width: 350px;
+    height: 200px;
+}
+
+.bg .main-left .news-content{
+    padding-bottom: 30px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.bg .main-left .author-infor-time{
+    float: right;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.bg .main-right{
+    width: 35%;
+    height: auto;
+    padding-left: 10px;
+    padding-right: 80px;
+    border-left: 2px dashed lightgrey;
+}
+
+.bg .main-right .title-short-description{
+    padding-top: 15px;
+    padding-bottom: 10px;
+
+}
+
+.bg .main-right .short-description{
+    font-size: 14px;
+    padding-right: 30px;
+}
+
+.bg .main-right .search{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.bg .main-right .search-box{
+    border: 1px dashed black;
+    width: 100px;
+}
+
+.bg .main-right .btn-submit{
+    border: none;
+    background-color: transparent;
+    color: #999;
+}
+
+.bg .main-right .last-articles{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.bg .main-right .most-5-recent-news{
+    padding-right: 30px;
+}
+
+.bg .main-right .most-5-recent-news .list{
+    margin-bottom: 10px;
+}
+
+.bg .main-right .most-5-recent-news .list a{
+    color: #42554e;
+    font-size: 14px;
+}
+
+.footer{
+    background-image: url(../resource/images/footer.jpg);
+    height: 78px;
+}
+
+.bold-text{
+    font-weight: bold;
+}
+
+.white-text{
+    color: white;
+}
+
+.green-text{
+    color: rgba(90,94,78,255);
+}
+
+.title-parts{
+    font-size: 18px;
+}
+
+/* search.jsp*/
+.image_search img
+{
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
+
+.text_search
+{   
+    font-size: 13px;
+}
+.paging
+{
+    margin-top: 40px;
+    text-align: center;
+}
+.paging a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px;
+    border: 1px solid;
+}
+.active{
+    color: red !important;
+/*    pointer-events: none;*/
+}

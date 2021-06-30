@@ -1,0 +1,160 @@
+/* 
+    Created on : Jun 17, 2021, 9:33:20 PM
+    Author     : Minh Thanh
+*/
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    color: #446580;
+    margin: 0;
+}
+
+.disable-logout{
+    display: none;
+}
+
+.success-msg{
+    font-weight: bold;
+    color: blue;
+}
+
+.error-msg{
+    font-weight: bold;
+    color: red;
+}
+
+.btn-black-text{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+.flex-content{
+    display: flex;
+}
+
+.blue-text{
+    color: #0e0eff;
+}
+
+.red-text{
+    color: red;
+}
+
+.menu-text{
+    font-weight: bold;
+    color: #6b5243;
+    line-height: 51px;
+}
+
+.main-content-text{
+    color: #110378;
+    font-weight: bold;
+}
+
+.wrapper-all{
+    background-image: url(../images/bg.jpg);
+    padding: 1.5rem;
+    height: 768px;
+}
+
+
+.wrapper-all .wrapper-box{
+    background-image: url(../images/top_box.gif);
+    background: no-repeat;
+    width: 700px;
+    height: auto;
+    background-color: #FFF;
+    border-radius: 1.2rem;
+    padding: 1rem 0;
+    margin: 0 auto;
+
+}
+
+.wrapper-all .menu{
+    background-image: url(../images/menu_bg.gif);
+    width: 663px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.menu .space-left{
+    padding: 0 15px;
+}
+
+.form .main-content{
+    padding: 2.5rem;
+    margin-bottom: 60px;
+}
+
+.act{
+    padding-top: 50px;
+}
+
+/* home-page */
+
+.bgr-yellow-sand{
+    background-color: #faffbd;
+    border: inset;
+}
+
+/*take-quiz.jsp*/
+.main-content .welcome{
+    color: #446580;
+}
+
+.input-number {
+    width: 100px;
+}
+
+.main-content .btn-start{
+    text-align: center;
+}
+
+/* question.jsp*/
+.timing , .to-right{
+    float: right;
+    padding-right: 100px;
+}
+
+.to-left{
+    float: left;    
+}
+
+
+.btn-submit , .btn-prev{
+    display: none;
+}
+
+.mySlides{
+    display: none;
+}
+
+
+.mySlides:first-child{
+    display: block;
+}
+
+/* result*/
+.header-text{
+    padding-bottom: 50px;
+}
+
+/* manage quiz */
+
+.manage-question tr td:first-child{
+    padding-right: 40px;
+}
+
+td:last-child{
+    width: 170px;
+}
+
+.manage-question tr>td{
+    padding-bottom: 10px;
+}
+
+
+
+

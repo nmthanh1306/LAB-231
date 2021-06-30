@@ -1,0 +1,274 @@
+/* 
+    Created on : May 24, 2021, 10:23:16 AM
+    Author     : Minh Thanh
+*/
+
+*{
+    color: white;
+    font-family: 'Open Sans',Helvetica,Arial,sans-serif;
+    /*    font-size: 16px;*/
+}
+
+.space-left{
+    padding-left: 300px;
+}
+
+.flex-content{
+    display: flex;
+}
+
+.font-title{
+    font-family: 'Times New Roman',Helvetica,Arial,sans-serif;
+}
+
+body{
+    margin: 0;
+    background-color: #aa4043;
+    background-image: url(../images/kaleidoscope.png);
+    /*    background-repeat: repeat repeat;
+        background-position: 0 0;
+        background-attachment: scroll;
+        background-size: auto;*/
+}
+
+li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+ul{
+    padding-left: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    text-shadow: none;
+    font-family: 'Times New Roman',Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    margin: 11px 0;
+    color: inherit;
+}
+
+h3 {
+    font-size: 28px;
+    line-height: 30.8px;
+    line-height: 32.8px;
+}
+
+h4 {
+    font-size: 20px;
+    line-height: 22px;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.body-content{
+    width: 940px;
+    padding-top: 30px;
+    display: flex;
+}
+
+.body-content .left{
+    width: 700px;
+    padding-left: 300px;
+}
+
+.body-content .right{
+    width: 240px;
+}
+
+/*header.jsp*/
+
+.header-menu{
+    background-color: #303030;
+}
+
+.header-menu .flex-content .menu{
+    padding: 10px 15px;
+    border-left: 1px solid rgba(255, 255, 255, .2);
+}
+
+.header-menu .flex-content .menu a{
+    text-decoration: none;
+}
+
+.header-menu .flex-content div:first-child{
+    font-weight: bold;
+}
+
+.title-page{
+    background-color: #722f31;
+}
+
+.title-page .wrapper-content{
+    padding: 25px 0;
+}
+
+.title-page .wrapper-content .title{
+    margin-left: 10px; 
+    font-size: 47px;
+    padding: 6px 0;
+    text-decoration: none;
+}
+
+.title-page .wrapper-content .title:hover{
+    text-decoration: underline;
+}
+
+.title-page .wrapper-content .sub-title{
+    margin-left: 10px;
+    font-size: 22px;
+    padding: 2px 0;
+}
+
+/* body-left.jsp */
+
+.left .main-image img{
+    width: 700px;
+}
+
+.left .image-caption{
+    font-style: italic;
+    font-size: 14.4px;
+    padding-bottom: 30px;
+}
+
+.left .list-gallery{
+    padding: 20px 0;
+}
+
+.column-gallery{
+    display: table;
+}
+
+.list-gallery .column-gallery .span4{
+    width: 31.91489362%;
+    margin-left: 2.12765957%;
+    float: left;
+}
+
+.list-gallery .column-gallery .span4:first-child{
+    margin-left: 0;
+}
+
+.list-gallery .column-gallery .span4 img{
+    width: 223.4px;
+    height: auto;
+}
+
+.about-me{
+    margin-bottom: 50px;
+}
+
+.about-me .title{
+    margin-left: 0;
+}
+
+/* body-right.jsp*/
+
+.right .share-box{
+    width: 220px;
+    height: 250px;
+    padding-left: 20px;
+}
+
+.right .share-box .header-word{
+    background-color: #303030;
+}
+
+.right .share-box .content{
+    background-color: rgba(114, 47, 49, 0.5);
+    padding: 5.5px 15px 11px;
+}
+
+.right .share-box .header-word .heading{
+    padding: 7px 15px;
+    margin: 0;
+}
+
+.right .share-box .social{
+    height: auto;
+    margin: 0;
+}
+
+.right .share-box .social li{
+    line-height: 1.5em;
+}
+.right .share-box .social li a:hover{
+    text-decoration: none;
+}
+
+.right .share-box .social .social-icon{
+    width: 13.8px;
+}
+
+
+
+.share-box .social a{
+    margin-left: 5px;
+}
+
+/*footer*/
+.footer{ 
+    height: 80.22px;
+    margin-top: auto;
+    background-color: #303030;
+} 
+.footer .footer-content{
+    width: 938px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+    justify-content: space-between;
+}
+.link-footer{
+    text-decoration: underline;
+}
+.link-footer:hover{
+    text-decoration: none;
+}
+.footer-page-counter-item{
+    border: 0 solid #fff;
+    background: #fff;
+    font-size: 14.4px;
+    font-family: Arial,Helvetica,Arial,sans-serif;
+    line-height: 14.4px;
+    padding: 2px 2px 1px;
+    margin: 3px 2px 0 0;
+    border-radius: 4px;   
+    float: left;
+    text-align: center;
+    color: #000;
+    font-weight: 700;
+    width: 10px;   
+    position: relative;
+}
+.footer-page-counter-item:before{
+    content: "";
+    display: block;
+    height: 1px;
+    position: absolute;
+    top: 52%;
+    left: 0;
+    margin-top: -1px;
+    background: rgba(0,0,0,.25);
+    width: 100%;
+}
+
+/* paging*/
+.paging
+{
+    margin-top: 40px;
+    text-align: center;
+}
+.paging a{
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 2px;
+    border: 1px solid;
+}
+.active{
+    color: chartreuse;
+/*    pointer-events: none;*/
+}

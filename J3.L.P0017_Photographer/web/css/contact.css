@@ -1,0 +1,30 @@
+/* 
+    Created on : May 30, 2021, 1:12:56 PM
+    Author     : Minh Thanh
+*/
+
+.left .contact{
+    padding: 10px 0;
+}
+
+.left .photographer-infor{
+    margin-bottom: 50px;
+}
+
+table tr td:first-child{
+    padding-right: 20px;
+}
+
+/* Apply padding to td elements that are direct children of the tr elements with class space-bottom. */
+ 
+table tr.space-bottom>td {
+  padding-bottom: 1.5em;
+}
+
+table tr td a:hover{
+    text-decoration: none;
+}
+
+.map{
+    padding-bottom: 50px;
+}
